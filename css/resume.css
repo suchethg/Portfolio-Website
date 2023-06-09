@@ -1,0 +1,107 @@
+/* Add a media query for smaller screens */
+@media (max-width: 991px) {
+  body {
+    padding-left: 0;
+  }
+  
+  #sideNav {
+    width: 100%;
+    padding-top: 54px;
+    position: static;
+    background-color: transparent;
+    z-index: initial;
+  }
+  
+  .resume-section {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Adjust the layout for smaller screens */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  
+  h4 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+  
+  h5 {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+  
+  h6 {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+  
+  .column {
+    padding: 0.5rem;
+  }
+  
+  .social-icons a {
+    padding: 6px;
+  }
+  
+  .resume-section .section-subheading {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Adjust the layout for extra small screens */
+@media (max-width: 575px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+  
+  h4 {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+  
+  h5 {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+  
+  h6 {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+}
+.image-container .overlay{
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
